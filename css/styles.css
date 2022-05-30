@@ -1,0 +1,281 @@
+a{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h2{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* title section */
+
+#title{
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    padding: 0.6% 0;
+}
+
+.navbar-brand {
+  padding-right: 20%;
+  padding-left: 10%;
+}
+
+.bank-nav {
+  display: inline block;
+  background-color: white;
+}
+
+
+#title .inv-button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(43, 183, 218, 1) 100%
+  );
+  color: white;
+  border: 0;
+  border-radius: 1000px;
+  padding: 10px 45px;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#title .inv-button:hover{
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+/* hero section */
+
+#hero {
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+.inv-button{
+    background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(43, 183, 218, 1) 100%
+  );
+  color: white;
+  border: 0;
+  border-radius: 1000px;
+  padding: 12px 45px;
+  text-align: center;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  
+}
+
+.inv-button:hover{
+    color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+#hero .container-fluid{
+    padding: 0% 10% 12%;
+    
+}
+
+.hero-heading{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: hsl(233, 26%, 24%);
+    padding-top: 20%;
+}
+
+.hero-paragraph{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: hsl(233, 8%, 62%);
+    padding: 3% 32% 3% 0;
+}
+
+.bg-intro-desktop{
+    z-index: 0;
+    position: absolute;
+    left: 45%;
+    bottom: -25%;
+    width: 90%;
+}
+
+.image-mockups{
+    z-index: 1;
+    position: absolute;
+    top: -5%;
+    left: 55%;
+}
+
+
+/* features-section */
+#features{
+    background-color: hsl(220, 16%, 96%);
+    z-index: 0;
+    position: relative;
+}
+
+.features-container{
+    padding: 5% 10%;
+}
+
+#features h2{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: hsl(233, 26%, 24%);
+    padding-bottom: 2%;
+}
+
+.features-text{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(233, 8%, 62%); 
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+}
+
+.features-img{
+    padding: 0 0 15%;
+}
+
+#features h3{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(233, 26%, 24%);
+    padding-bottom: 2%;
+    padding: 2% 0 4%;
+}
+
+.features-text-2{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: hsl(233, 8%, 62%); 
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+}
+
+/* Articles Section */
+
+#articles{
+    background-color: hsl(0, 0%, 98%) ;
+}
+
+#articles .container-fluid{
+    padding: 5% 10%;
+}
+
+#articles h3{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.card{
+    background-color: white;
+    width: 18rem;
+    border: 0;
+    padding-top: 13%;
+}
+
+.card-img{
+    height: 13rem;
+}
+
+#articles a{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3rem;
+}
+
+#articles a:hover{
+    color: #36b698;
+}
+
+#articles p{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(233, 8%, 62%);
+    padding: 5% 0;
+}
+
+#articles h6{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(233, 8%, 62%);
+    font-size: 0.8rem;
+}
+
+
+/* footer section */
+
+
+#footer{
+    background-color: hsl(233, 26%, 24%);
+}
+
+#footer .container-fluid{
+    padding: 4% 10%;
+}
+
+.icon-container{
+    padding-top: 20%;
+}
+
+.icons{
+    padding: 0% 3% 0% 0%;
+    color: white;
+}
+
+.icons:hover{
+    color:#36b698;
+}
+
+.footer-links{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 10% 0;
+   
+}
+
+.footer-links:hover{
+    color:#36b698;
+}
+
+.align-right{
+    text-align: right;
+}
+
+#footer h5{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 15% 2% 0 0 ;
+    color: hsl(233, 8%, 62%);
+
+}
